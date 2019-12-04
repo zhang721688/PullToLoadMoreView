@@ -11,6 +11,7 @@ import android.widget.Scroller;
 
 /**
  * Created by baoyunlong on 16/6/8.
+ * https://www.jb51.net/article/91858.htm
  */
 public class PullUpLoadLayout extends ViewGroup {
     public static String TAG = PullUpLoadLayout.class.getName();
