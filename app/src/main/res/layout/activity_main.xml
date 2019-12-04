@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"/>
 
-    <com.qfdqc.views.pulltoloadmoreview.PullUpToLoadMore
+    <com.zxn.pullupload.PullUpLoadLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/top"
         android:id="@+id/ptlm"
         android:orientation="vertical">
 
-        <com.qfdqc.views.pulltoloadmoreview.MyScrollView
+        <com.zxn.pullupload.PullUpScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fillViewport="true">
@@ -77,9 +77,9 @@
                 </LinearLayout>
             </LinearLayout>
 
-        </com.qfdqc.views.pulltoloadmoreview.MyScrollView>
+        </com.zxn.pullupload.PullUpScrollView>
 
-        <com.qfdqc.views.pulltoloadmoreview.MyScrollView
+        <com.zxn.pullupload.PullUpScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fillViewport="true">
@@ -129,9 +129,9 @@
 
             </LinearLayout>
 
-        </com.qfdqc.views.pulltoloadmoreview.MyScrollView>
+        </com.zxn.pullupload.PullUpScrollView>
 
-    </com.qfdqc.views.pulltoloadmoreview.PullUpToLoadMore>
+    </com.zxn.pullupload.PullUpLoadLayout>
 
     <Button
         android:text="回到顶部"
