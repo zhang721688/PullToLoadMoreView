@@ -20,6 +20,8 @@ import android.widget.Scroller;
  * 1 ViewPager+TabLayout as content
  * 2 FragmentTabHost+Fragment as content
  * 3 bug :can not assertain which View is inTouch
+ * https://github.com/happylishang/DragScrollDetailsLayout
+ * https://segmentfault.com/a/1190000007949473
  */
 
 public class DragScrollDetailsLayout extends LinearLayout {
